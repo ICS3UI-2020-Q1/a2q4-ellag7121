@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Sample",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "35.50",
+      "output": "Please enter the amount the customer spent\r\nThey will receive 10% off.\r\nThey will save $3.55.\r\nThe new total is $31.95.\r\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Sample2",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "110",
+      "output": "Please enter the amount the customer spent\r\nThey will receive 30% off.\r\nThey will save $33.\r\nThe new total is $77.\r\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "40 off",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "165.55",
+      "output": "Please enter the amount the customer spent\r\nThey will receive 40% off.\r\nThey will save $66.22.\r\nThe new total is $99.33.\r\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
